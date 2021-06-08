@@ -5,10 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class DemoAutomation01 {
-	
-	public DemoAutomation01() {
-		//This is new changes
-	}
 	public static String browser="chrome";
 	public static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException {
