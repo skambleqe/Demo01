@@ -1,0 +1,14 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DemoAutomation01 {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.edge.driver", "C:\\BrowserDriver\\msedgedriver.exe");
+		//ChromeDriver driver=new ChromeDriver();
+		EdgeDriver driver=new EdgeDriver();
+		driver.get("http://google.com");
+		
+
+	}
+
+}
